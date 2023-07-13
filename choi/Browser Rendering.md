@@ -38,7 +38,7 @@
    - 쿠키 등 모든 종류의 자원을 하드 디스크에 저장할 필요가 있음
    - HTML5 명세에는 브라우저가 지원하는 '[웹 데이터 베이스](https://web.dev/)'가 정의되어 있음
 
-![브라우저 렌더링](assets/1_1.PNG)
+![브라우저 렌더링](assets/1_1.png)
 
 
 
@@ -46,11 +46,11 @@
 
 - **게코(Gecko) 엔진** : 모질라 제작, 파이어폭스 사용
 
-![5.PNG](assets/1_2.PNG)
+![5.PNG](assets/1_2.png)
 
 - **웹킷(Webkit) 엔진** : 오픈소스 엔진, 사파리, 크롬 사용
 
-![4.PNG](assets/1_3.PNG)
+![4.PNG](assets/1_3.png)
 
 - 게코와 웹킷은 용어 차이만 존재, 기본 동작 과정은 동일
 
@@ -86,7 +86,7 @@
 
 ## **브라우저 렌더링 동작 과정**
 
-![6.PNG](assets/1_4.PNG)
+![6.PNG](assets/1_4.png)
 
 
 
@@ -106,7 +106,7 @@
 
 - 파싱 중 HTML에 CSS가 포함되어 있다면 **CSSOM(CSS Object Model) Tree** 구성 작업도 함께 진행
 
-  ![1.PNG](assets/1_5.PNG)
+  ![1.PNG](assets/1_5.png)
 
 
 
@@ -121,7 +121,7 @@
   - Render Tree : 실제로 화면에 그려질 Tree
   - ex) CSS - `visibility: hidden` 속성을 주면 요소가 공간을 차지하지만, 보이지 않기 때문에 Render Tree에는 포함이 되지만, CSS - `display: none` 의 경우 Render Tree에서 제외됨
 
-![2.PNG](assets/1_6.PNG)
+![2.PNG](assets/1_6.png)
 
 
 
