@@ -141,7 +141,7 @@ target.match(/is/ig);
 
 **1. 임의 문자열 검색**
 
-- **`.`**은 임의의 문자 한개를 의미
+- `.`은 임의의 문자 한개를 의미
 
 ```javascript
 const target = 'Is this all there is?';
