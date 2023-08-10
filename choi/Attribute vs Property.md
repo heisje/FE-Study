@@ -97,7 +97,7 @@ console.log(input.value);	// '66'
 ```
 
 ```html
-<!-- 하지만 HTML&CSS 태그를 보면 여전히 value의 값은 0임 -->
+<!-- 하지만 HTML 태그를 보면 여전히 value의 값은 0임 -->
 <input type="text" value="0">
 ```
 
